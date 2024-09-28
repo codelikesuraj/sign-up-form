@@ -1,0 +1,74 @@
+@font-face {
+  font-family: odin;
+  src: url(assets/fonts/Norse-Bold.otf);
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+}
+
+#image-section {
+  flex: 1;
+  background-image: url("./assets//images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+#odin-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+#odin-logo img {
+  height: 5rem;
+}
+
+#odin-logo {
+  font-size: 58px;
+  font-family: odin;
+}
+
+#image-info {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#image-info,
+#image-info a,
+#image-info a:visited {
+  font-size: 12px;
+  color: white;
+}
+
+#form-section {
+  flex: 2;
+}
