@@ -28,18 +28,22 @@
         </div>
       </div>
       <div id="form-section">
-        <div>
+        <div id="info">
           <p>
-            This is not a real online service! You know you need something like
-            this in your life to help you realize your deepest dreams.
-            <br />Sign up <em>now</em> to get started.
+            <strong>
+              This is not a real online service! You know you need something<br />like
+              this in your life to help you realize your deepest dreams.<br />Sign
+              up <em>now</em> to get started.</strong
+            >
           </p>
-          <p>You <em>know</em> you want to.</p>
+          <p>
+            <strong>You <em>know</em> you want to.</strong>
+          </p>
         </div>
-        <div>
-          <form action="#">
-            <div id="input-fields">
-              <p>Let's do this!</p>
+        <form action="#">
+          <div id="input-fields">
+            <h2>Let's do this!</h2>
+            <fieldset>
               <div>
                 <label for="first_name">First Name</label>
                 <input type="text" id="first_name" />
@@ -48,6 +52,8 @@
                 <label for="last_name">Last Name</label>
                 <input type="text" id="last_name" />
               </div>
+            </fieldset>
+            <fieldset>
               <div>
                 <label for="email">Email</label>
                 <input type="email" id="email" />
@@ -56,6 +62,8 @@
                 <label for="phone_number">Phone Number</label>
                 <input type="tel" id="phone_number" />
               </div>
+            </fieldset>
+            <fieldset>
               <div>
                 <label for="password">Password</label>
                 <input type="password" id="password" />
@@ -64,17 +72,17 @@
                 <label for="c_password">Confirm password</label>
                 <input type="password" id="c_password" />
               </div>
-            </div>
-            <div>
-              <button>Create Account</button>
-            </div>
-            <div>
-              <p>
-                Already have an account? <span id="login-link">Log in</span>
-              </p>
-            </div>
-          </form>
-        </div>
+            </fieldset>
+          </div>
+          <div>
+            <button>Create Account</button>
+          </div>
+          <div>
+            <p>
+              Already have an account? <strong id="login-link">Log in</strong>
+            </p>
+          </div>
+        </form>
       </div>
     </div>
   </body>
